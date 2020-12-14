@@ -7,6 +7,7 @@ Amazon CloudFront 개발자 안내서에서 제공하는 예제 함수 중에서
 # Country Codes
 
 CloudFront는 접속자의 국가 코드를 HTTP Request Header로 보내주는데, 이 헤더 이름은 `cloudfront-viewer-country` 입니다.
+
 (전체 HTTP Request Header 목록: https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/RequestAndResponseBehaviorCustomOrigin.html#request-custom-headers-behavior)
 
 여기서 사용하는 국가 코드는 `ISO 3166-1 alpha-2`에서 정의한 2자리 영문 코드가 사용되며, 전체 목록은 아래 주소에서 확인할 수 있습니다.
