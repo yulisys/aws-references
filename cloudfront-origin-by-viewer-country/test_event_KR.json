@@ -1,0 +1,122 @@
+{
+    "Records": [
+      {
+        "cf": {
+          "config": {
+            "distributionDomainName": "d1sd2uebz8nj4u.cloudfront.net",
+            "distributionId": "E2MSWYBYX554N0",
+            "eventType": "origin-request",
+            "requestId": "lEjoAOic2g1P2cf4zszY6T4vFgv1gRZBfYFoNPcxCNqSokXIHxwU2g=="
+          },
+          "request": {
+            "clientIp": "85.132.61.126",
+            "headers": {
+              "cloudfront-is-mobile-viewer": [
+                {
+                  "key": "CloudFront-Is-Mobile-Viewer",
+                  "value": "false"
+                }
+              ],
+              "cloudfront-is-tablet-viewer": [
+                {
+                  "key": "CloudFront-Is-Tablet-Viewer",
+                  "value": "false"
+                }
+              ],
+              "cloudfront-is-smarttv-viewer": [
+                {
+                  "key": "CloudFront-Is-SmartTV-Viewer",
+                  "value": "false"
+                }
+              ],
+              "cloudfront-is-desktop-viewer": [
+                {
+                  "key": "CloudFront-Is-Desktop-Viewer",
+                  "value": "true"
+                }
+              ],
+              "cloudfront-forwarded-proto": [
+                {
+                  "key": "CloudFront-Forwarded-Proto",
+                  "value": "http"
+                }
+              ],
+              "x-forwarded-for": [
+                {
+                  "key": "X-Forwarded-For",
+                  "value": "85.132.61.126"
+                }
+              ],
+              "user-agent": [
+                {
+                  "key": "User-Agent",
+                  "value": "Amazon CloudFront"
+                }
+              ],
+              "via": [
+                {
+                  "key": "Via",
+                  "value": "1.1 8bbb668bbd1ecafb8d86559c8aee4370.cloudfront.net (CloudFront)"
+                }
+              ],
+              "accept-encoding": [
+                {
+                  "key": "Accept-Encoding",
+                  "value": "gzip"
+                }
+              ],
+              "pragma": [
+                {
+                  "key": "Pragma",
+                  "value": "no-cache"
+                }
+              ],
+              "upgrade-insecure-requests": [
+                {
+                  "key": "Upgrade-Insecure-Requests",
+                  "value": "1"
+                }
+              ],
+              "cloudfront-viewer-country": [
+                {
+                  "key": "CloudFront-Viewer-Country",
+                  "value": "KR"
+                }
+              ],
+              "host": [
+                {
+                  "key": "Host",
+                  "value": "nginx-kr-1189207799.ap-northeast-2.elb.amazonaws.com"
+                }
+              ],
+              "cache-control": [
+                {
+                  "key": "Cache-Control",
+                  "value": "no-cache"
+                }
+              ]
+            },
+            "method": "GET",
+            "origin": {
+              "custom": {
+                "customHeaders": {},
+                "domainName": "nginx-kr-1189207799.ap-northeast-2.elb.amazonaws.com",
+                "keepaliveTimeout": 5,
+                "path": "",
+                "port": 9080,
+                "protocol": "http",
+                "readTimeout": 30,
+                "sslProtocols": [
+                  "TLSv1",
+                  "TLSv1.1",
+                  "TLSv1.2"
+                ]
+              }
+            },
+            "querystring": "",
+            "uri": "/"
+          }
+        }
+      }
+    ]
+  }
