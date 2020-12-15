@@ -314,7 +314,6 @@ exports.handler = (event, context, callback) => {
             break;
     }
     request.origin.custom.domainName = domainName;
-    request.headers['host'] = [{key: 'host', value: domainName}];
 
     if( process.env.IS_DEBUG === "true" ) {
         console.debug("--- new request ---");
